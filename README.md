@@ -1,4 +1,4 @@
-# OICE-LePOS: Old Icelandic Lemmatiser and POS Tagger (SpaCy and UD POS tags version)
+# OICE-LePOS: Old Icelandic Lemmatiser and POS Tagger (SpaCy and UD UPOS tags version)
 
 ## Model Overview
 
@@ -6,9 +6,9 @@ This repository contains a <a href="https://spacy.io/">spaCy</a> (v3.8.11) model
 
 Try it out in <a href="https://colab.research.google.com/drive/1V4rqPT1cgULNILu857MCSsrduo_o6eTq?usp=sharing">Google Collab</a>!
 
-The model was trained on all the available MENOTA texts by Andrea de Leeuw van Weenen (AM 132 fol., AM 519 a 4to., and AM 677 4to).
+The model was trained on all the available MENOTA texts by Andrea de Leeuw van Weenen (AM 132 fol., AM 519 a 4to., and AM 677 4to). This is around 75% of all the currently available MENOTA texts, which are normalised, lemmatized, and (at least partially) POS-tagged.
 
-<a href="https://www.menota.org/HB3_ch11.xml">Menota POS-tags</a> were mapped to <a href="https://universaldependencies.org/u/pos/">Universal Dependencies tags</a>, listed here according to their frequency in the training data:
+<a href="https://www.menota.org/HB3_ch11.xml">Menota POS-tags</a> were mapped to <a href="https://universaldependencies.org/u/pos/">Universal Dependencies Universal part-of-speech tags</a> (UPOS), listed here according to their frequency in the training data:
 
 | MENOTA Tag | UD Tag | Notes |
 |-----------|--------|-------|
